@@ -8,12 +8,11 @@
 using namespace std;
 
 int main() {
-    cout << "Problem 1\n";
-    float consumed_water;
+   cout << "Problem 1\n";
+   float consumed_water;
     cout << "Enter value for consumed water : ";
     cin >> consumed_water;
-    cout <<" Cost : "<< problemSolution1(consumed_water);
-
+    cout <<"Result  : "<< problemSolution1(consumed_water);
 
     cout << "Problem 2\n";
     float i;
@@ -25,8 +24,7 @@ int main() {
     cin >> j;
     cout << "Enter value for third price : ";
     cin >> k;
-    cout <<" Highest price : "<< problemSolution2(i,j,k);
-
+    cout <<"Highest price  : "<< problemSolution2(i, j, k);
 
     cout << "Problem 3\n";
     float height;
