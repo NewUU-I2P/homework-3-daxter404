@@ -1,25 +1,19 @@
 float problemSolution5(float x, float y, char operation) {
-   float result =0;
     switch (operation) {
             case '+':
-                result = x+y;
-                break;
+                return x+y;
+
             case '-':
-                result = x-y;
-                break;
+                return x-y;
+
             case '*' :
-                result = x*y;
-                break;
+                return x*y;
+
             case '/':
                 if (y!=0) {
-                    result = x / y;
-                } else {
-                    std::cout << "division by zero is undefined";
+                    return x / y;
                 }
-                break;
-            default:
-                std::cout << "Operation is undefined";
-                break;
+
     }
-   return result;
+   return 0;
 }
