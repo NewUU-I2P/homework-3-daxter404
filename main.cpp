@@ -46,5 +46,12 @@ int main() {
     cin >> operation;
     cout <<"Result  : "<< problemSolution5(x,y, operation);
 
+    cout << "Problem 4\n";
+    cout << "Enter value for macAddress : \n";
+    std::string macAddress;
+    cin >> macAddress;
+
+    cout <<"Result  : "<< problemSolution4(macAddress);
+
     return 0;
 }
